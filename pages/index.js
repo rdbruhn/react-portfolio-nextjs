@@ -3,16 +3,17 @@ import Tile from "../components/Tile";
 
 const projects = [
   {
+    title: "Raise Chrome Extension",
+    href:
+      "https://chrome.google.com/webstore/detail/raise/mcheealmocffihjegbpnmoljmlhodmdc",
+    src: "../static/images/ChromeExtension.jpg",
+    alt: "Raise Chrome Extension Screen Shot"
+  },
+  {
     title: "Goby Analytics Platform",
     href: "http://www.gobyinc.com",
     src: "../static/images/GobyUI.jpg",
     alt: "Goby User Interface Screen Shot"
-  },
-  {
-    title: "Tweet Face",
-    href: "http://blog.brightwork.io/tweetface-a-brightwork-restbot-tutorial/",
-    src: "../static/images/TweetFace.jpg",
-    alt: "Tweet Face Screen Shot"
   },
   {
     title: "Space Pirates",
@@ -64,6 +65,7 @@ export default () => (
         }
         h3 {
           margin-top: 0;
+          margin-bottom: 0;
         }
         img {
           height: 100px;
