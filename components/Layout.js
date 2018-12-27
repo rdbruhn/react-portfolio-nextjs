@@ -35,7 +35,7 @@ const Layout = props => (
         </a>
       </div>
       <div>
-        <a href="http://www.divnkedin.com/in/rdbruhn" target="_blank">
+        <a href="http://www.linkedin.com/in/rdbruhn" target="_blank">
           LinkedIn
         </a>
       </div>
