@@ -7,13 +7,16 @@
   "author": "rdbruhn@gmail.com",
   "license": "MIT",
   "scripts": {
-    "dev": "next",
+    "dev": "nodemon server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
+    "express": "^4.16.4",
     "next": "^7.0.2",
+    "nodemon": "^1.18.9",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "react-markdown": "^4.0.4"
   }
 }
