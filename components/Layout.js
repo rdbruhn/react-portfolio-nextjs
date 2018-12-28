@@ -1,4 +1,3 @@
-import Meta from "./Meta";
 import Nav from "./Nav";
 
 const pageLayoutStyle = {
@@ -13,7 +12,6 @@ const globalStyle = {
 
 const Layout = props => (
   <div style={globalStyle}>
-    <Meta />
     <Nav />
     <div style={pageLayoutStyle}>{props.children}</div>
     <footer>
