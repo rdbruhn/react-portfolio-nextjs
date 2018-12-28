@@ -10,7 +10,7 @@
     "dev": "node scripts/generateMarkdown.js && node server.js",
     "build": "node scripts/generateMarkdown.js && next build",
     "start": "node server.js -p $PORT",
-    "heroku-postbuild": "next build"
+    "heroku-postbuild": "node scripts/generateMarkdown.js next build"
   },
   "dependencies": {
     "compression": "^1.7.3",
