@@ -1,10 +1,18 @@
+import React from "react";
+import ReactMarkdown from "react-markdown";
 import Layout from "../components/Layout.js";
-const ReactMarkdown = require("react-markdown");
 
-import resume from "../markdown/resume";
+export default class extends React.Component {
+  static async getInitialProps({ req }) {
+    const content = await require("../markdown/resume.md");
+    return { content };
+  }
 
-export default () => (
-  <Layout>
-    <ReactMarkdown source={resume} />
-  </Layout>
-);
+  render() {
+    return (
+      <Layout>
+        <ReactMarkdown source={this.props.content} />
+      </Layout>
+    );
+  }
+}
