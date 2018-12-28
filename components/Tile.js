@@ -27,15 +27,6 @@ const Tile = ({ alt, src, href, title }) => (
       h3 {
         margin-bottom: 8px;
       }
-      a,
-      a:active,
-      a:hover,
-      a:visited {
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
     `}</style>
   </div>
 );

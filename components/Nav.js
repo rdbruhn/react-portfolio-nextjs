@@ -22,25 +22,21 @@ const Nav = () => (
     <Link href="/">
       <a style={linkStyle}>Home</a>
     </Link>
-    <Link href="/about">
-      <a style={linkStyle}>About</a>
+    <Link href="/blog">
+      <a style={linkStyle}>Blog</a>
     </Link>
     <Link href="/resume">
       <a style={linkStyle}>Resume</a>
     </Link>
-    <a style={linkStyle} href="mailto:rob@modulomoments.com">
-      Contact
-    </a>
+    <Link href="/about">
+      <a style={linkStyle}>About</a>
+    </Link>
     <style jsx>{`
       a,
       a:active,
       a:hover,
       a:visited {
         color: #fff;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
       }
     `}</style>
   </div>

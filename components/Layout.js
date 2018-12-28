@@ -4,8 +4,7 @@ import Nav from "./Nav";
 const pageLayoutStyle = {
   maxWidth: "800px",
   margin: "auto",
-  padding: "50px 10px 50px 10px",
-  color: "#621A19"
+  padding: "50px 10px 50px 10px"
 };
 
 const globalStyle = {
@@ -29,14 +28,12 @@ const Layout = props => (
         </a>
       </div>
       <div>
-        <a href="http://blog.modulomoments.com" target="_blank">
-          Blog
-        </a>
-      </div>
-      <div>
         <a href="http://www.linkedin.com/in/rdbruhn" target="_blank">
           LinkedIn
         </a>
+      </div>
+      <div>
+        <a href="mailto:rob@modulomoments.com">Email</a>
       </div>
     </footer>
     <style jsx>{`
@@ -45,11 +42,7 @@ const Layout = props => (
       a:hover,
       a:visited {
         color: #fff;
-        text-decoration: none;
         margin-right: 15px;
-      }
-      a:hover {
-        text-decoration: underline;
       }
       footer {
           position: fixed;

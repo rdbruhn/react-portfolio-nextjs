@@ -4,7 +4,7 @@ import Layout from "../components/Layout.js";
 
 export default class extends React.Component {
   static async getInitialProps({ req }) {
-    const content = await require("../markdown/resume.md");
+    const content = await require("../static/markdown/resume.md");
     return { content };
   }
 

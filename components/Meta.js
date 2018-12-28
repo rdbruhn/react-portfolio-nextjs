@@ -13,6 +13,15 @@ export default () => (
         margin: 0;
         padding: 0;
       }
+      a,
+      a:active,
+      a:hover,
+      a:visited {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
     `}</style>
   </div>
 );

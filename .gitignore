@@ -59,3 +59,7 @@ typings/
 
 # next.js build output
 .next
+
+# markdown build files
+/static/markdown/_posts
+/static/markdown/manifest.json
