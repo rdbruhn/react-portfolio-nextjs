@@ -4,8 +4,7 @@ import Nav from "./Nav";
 const pageLayoutStyle = {
   maxWidth: "800px",
   margin: "auto",
-  paddingTop: "50px",
-  paddingBottom: "50px",
+  padding: "50px 10px 50px 10px",
   color: "#621A19"
 };
 
