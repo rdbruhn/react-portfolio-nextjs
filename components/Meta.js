@@ -3,6 +3,10 @@ export default () => (
   <div>
     <Head>
       <title>moduloMoments</title>
+      <meta
+        name="Description"
+        content="A portfolio site for work and blog posts by software engineer, Rob Bruhn."
+      />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
       <link rel="canonical" href="http://www.modulomoments.com" />
