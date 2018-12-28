@@ -24,7 +24,8 @@ const resume = `# Resume
 ### ReviewTrackers | Jr Software Engineer (SE2) May 2017 - March 2018
 
 - Crafted @mentions feature that allowed users to tag others in notes and send them an email alert notification using React, Redux, draft.js, Golang with SOLR search, RabbitMQ, Ruby message consumers, and Ruby email services using SendWithUs
-- Optimized front-end performance using React-loadable and route-based code-splitting drastically reducing bundle sizes Connected Google oauth to account signup using React, Node, Google My Business API, and Go, to speed up onboarding
+- Optimized front-end performance using React-loadable and route-based code-splitting drastically reducing bundle sizes
+- Connected Google oauth to account signup using React, Node, Google My Business API, and Go, to speed up onboarding
 
 ### Goby | Software Engineer Oct 2016 - May 2017
 
