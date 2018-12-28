@@ -1,0 +1,9 @@
+{ "title": "Making the Most of Modulo Moments", "date": "2015-11-10" }%%%
+
+I'm starting this blog to share my experiences learning to code. I'll be posting about projects I'm tackling and reflecting on how I'm growing as a developer. As I find new resources, best practices, and work through new challenges, I hope to compile everything into helpful guides, reviews, and stories from the world of coding. I'm currently in a number of online self-driven programs and I'm considering a number of bootcamp options for the future.  I'm excited to tackle this challenge and hope to post at least once a week with increasing frequency as I get deeper into the world of coding.
+
+For the moment, my coding experience is only in the remainders of life. I recently learned how to use this [operator in javascript:](http://www.w3schools.com/js/js_operators.asp) '%'. The _modulo_ or _modulus_ is used to find a remainder between two numbers. In my 'remainder' moments this past year, I started to play around with html and css to change some basic appearance on my current employers' website.  I realized I really enjoyed trying to learn how to alter and create new elements on the site. I was hooked.
+
+Over the past year, I've worked on a couple projects and explored multiple languages, frameworks, and possibilities for growing in knowledge and experience as a developer. I've only gotten my feet wet, but I'm picking up speed. This past week, I plowed through [codecademy's Javascript Course](https://www.codecademy.com/en/learn/javascript) and can't wait to tackle the final project.
+
+Working full-time, spending time with my wife, and raising two kids, fills up my time quickly, but I'm hoping to spend even more of my remainder moments learning and creating.  Truly, I hope that the blog will be a record of a great journey from front-end padawan to full-stack Jedi! Only time will tell, but for the moment, I can't wait to build something new!
