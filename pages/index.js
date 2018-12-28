@@ -23,13 +23,13 @@ const projects = [
   },
   {
     title: "Canteen App",
-    href: "https://canteenapp.herokuapp.com/",
+    href: "https://github.com/rdbruhn/Canteen",
     src: "../static/images/CanteenScreenShot.jpg",
     alt: "Canteen App Screen Shot"
   },
   {
     title: "HelpMe HelpMe",
-    href: "https://helpmehelpme.herokuapp.com/",
+    href: "https://github.com/rdbruhn/helpme-helpme",
     src: "../static/images/HelpMeHelpMeScreenShot.jpg",
     alt: "HelpMe HelpMe Screen Shot"
   },
