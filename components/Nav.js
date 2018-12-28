@@ -20,16 +20,24 @@ const linkStyle = {
 const Nav = () => (
   <div style={navStyle}>
     <Link href="/">
-      <a style={linkStyle}>Home</a>
+      <a rel="noopener" style={linkStyle}>
+        Home
+      </a>
     </Link>
     <Link href="/blog">
-      <a style={linkStyle}>Blog</a>
+      <a rel="noopener" style={linkStyle}>
+        Blog
+      </a>
     </Link>
     <Link href="/resume">
-      <a style={linkStyle}>Resume</a>
+      <a rel="noopener" style={linkStyle}>
+        Resume
+      </a>
     </Link>
     <Link href="/about">
-      <a style={linkStyle}>About</a>
+      <a rel="noopener" style={linkStyle}>
+        About
+      </a>
     </Link>
     <style jsx>{`
       a,

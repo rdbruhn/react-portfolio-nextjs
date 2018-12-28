@@ -4,7 +4,7 @@ Another week of preparation down in the weeks leading to Hack Reactor Remote! I'
 
 <strong>Preparation</strong>
 
-On top of the pre-course material, I've been working through algorithm challenges on <a href="http://www.freecodecamp.com/" target="_blank">Free Code Camp</a>, reviewing jQuery on Code School, freshening up my knowledge of <a href="https://www.udacity.com/course/object-oriented-javascript--ud015" target="_blank">Object-Oriented Programming</a> on Udacity, and this week  I'll continue to work through a class on <a href="https://www.udemy.com/understand-nodejs/learn/#/" target="_blank">node.js at Udemy</a>! There are so many great resources out there! I've got an even bigger list of material I hope to finish before Feb. 29th, but I doubt I'll get through them all.
+On top of the pre-course material, I've been working through algorithm challenges on <a rel="noopener" href="http://www.freecodecamp.com/" target="_blank">Free Code Camp</a>, reviewing jQuery on Code School, freshening up my knowledge of <a rel="noopener" href="https://www.udacity.com/course/object-oriented-javascript--ud015" target="_blank">Object-Oriented Programming</a> on Udacity, and this week  I'll continue to work through a class on <a rel="noopener" href="https://www.udemy.com/understand-nodejs/learn/#/" target="_blank">node.js at Udemy</a>! There are so many great resources out there! I've got an even bigger list of material I hope to finish before Feb. 29th, but I doubt I'll get through them all.
 
 <strong>Prototypes</strong>
 
@@ -33,4 +33,4 @@ The first use of 'prototype' refers to the link to the class constructor functi
 
 In the pseudoclassical pattern, a prototype('Knight.prototype') is linked to its class creating function('Knight')of the same name, and to all new instances of that class. The function 'Knight' is linked for the purpose of assigning new instances to 'Knight.prototype'.  The instances are then linked for the purpose of fall through after failed look ups. For example, in the code above you can call steve.strike(); but you could not call Knight.strike();
 
-All of this is explained really well by Marcus Phillips in a Udacity course I highly recommend on <a href="https://www.udacity.com/course/object-oriented-javascript--ud015" target="_blank">Object-Oriented Programming</a>.
+All of this is explained really well by Marcus Phillips in a Udacity course I highly recommend on <a rel="noopener" href="https://www.udacity.com/course/object-oriented-javascript--ud015" target="_blank">Object-Oriented Programming</a>.

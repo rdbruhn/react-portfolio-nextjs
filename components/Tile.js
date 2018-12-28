@@ -13,7 +13,7 @@ const linkStyle = {
 
 const Tile = ({ alt, src, href, title }) => (
   <div style={tileStyle}>
-    <a style={linkStyle} href={href} target="_blank">
+    <a rel="noopener" style={linkStyle} href={href} target="_blank">
       <h3>{title}</h3>
       <img alt={alt} src={src} />
     </a>

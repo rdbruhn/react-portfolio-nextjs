@@ -18,22 +18,28 @@ const Layout = props => (
     <div style={pageLayoutStyle}>{props.children}</div>
     <footer>
       <div>
-        <a href="https://github.com/rdbruhn" target="_blank">
+        <a rel="noopener" href="https://github.com/rdbruhn" target="_blank">
           GitHub
         </a>
       </div>
       <div>
-        <a href="http://twitter.com/robbruhn" target="_blank">
+        <a rel="noopener" href="http://twitter.com/robbruhn" target="_blank">
           Twitter
         </a>
       </div>
       <div>
-        <a href="http://www.linkedin.com/in/rdbruhn" target="_blank">
+        <a
+          rel="noopener"
+          href="http://www.linkedin.com/in/rdbruhn"
+          target="_blank"
+        >
           LinkedIn
         </a>
       </div>
       <div>
-        <a href="mailto:rob@modulomoments.com">Email</a>
+        <a rel="noopener" href="mailto:rob@modulomoments.com">
+          Email
+        </a>
       </div>
     </footer>
     <style jsx>{`

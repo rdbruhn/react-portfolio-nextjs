@@ -24,7 +24,7 @@ const Blog = () => (
     <div style={listStyle}>
       {reversedPosts.map(({ id, title, date }) => (
         <Link key={id} as={`/post/${id}`} href={`/post/${id}`}>
-          <a style={linkStyle}>
+          <a rel="noopener" style={linkStyle}>
             <p style={{ paddingRight: "10px" }}>{title}</p>
             <p style={{ whiteSpace: "nowrap" }}>{date}</p>
           </a>
