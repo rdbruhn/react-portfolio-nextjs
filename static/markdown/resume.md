@@ -30,9 +30,9 @@
 ### Goby | Software Engineer Oct 2016 - May 2017
 
 - Rebuilt UI of main energy reporting product using Salesforce Lightning Components greatly improving UX and performance
-- Created open-source Bolt.js library for Lightning components using Ramda.js increasing benefits of functional programming BrightWork |
+- Created open-source Bolt.js library for Lightning components using Ramda.js increasing benefits of functional programming
 
-### Full-Stack JavaScript Software Engineer on Contract 3 months - 2016
+### BrightWork | Full-Stack JavaScript Software Engineer on Contract 3 months - 2016
 
 - Enhanced CLI and server architecture to use TAR, GZIP and streams, increasing application deployment speed and scalability
 - Integrated JWT authentication strategy into BrightWork application deployment resulting in secured user credentials
